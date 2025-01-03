@@ -1,0 +1,176 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(74, 74, 75);
+}
+
+/* NAVIGATION BAR */
+.section_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures spacing between div_1 and div_2 */
+    background-color: rgb(8, 4, 41);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 20px;             /* Optional: Adds spacing on both sides */
+}
+
+/* Domain Name */
+.section_1 .div_1 {
+    color: aqua;
+    text-shadow: 2px 2px 4px #aad9db;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section_1 .div_1:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #ff0d0d;
+    cursor: pointer;
+}
+
+/* navigation section */
+.section_1 .div_2 {
+    color: aqua;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto; /* Pushes div_2 to the right */
+}
+
+/* navigation list */
+.section_1 .div_2 ul {
+    list-style: none;
+    display: flex;
+}
+
+/* navigation single item */
+.section_1 .div_2 ul li {
+    font-size: 12px;
+    margin-left: 12px;
+    color: aqua;
+    text-shadow: 2px 2px 4px #aad9db;
+}
+
+.section_1 .div_2 ul li:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #ff0d0d;
+    cursor: pointer;
+}
+
+/* menu bar layout */
+.section_1 .div_3 {
+    margin-left: 10px;
+    padding: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    border: 1px solid aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* menu bar icon */
+.section_1 .div_3 i {
+    height: fit-content;
+    width: fit-content;
+    color: rgb(238, 255, 255);
+}
+
+.section_1 .div_3:hover {
+    background-color: rgb(64, 87, 101);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    color: aqua;
+}
+
+.section_2 {
+    display: flex;              /* Enables flexbox */
+    flex-direction: column;     /* Align items vertically */
+    align-items: center;        /* Centers horizontally */
+    justify-content: center;    /* Centers vertically */
+    text-align: center;         /* Aligns text in center */
+    padding: 20px;
+    margin-top: 10px;
+    min-height: 100vh;          /* Ensures it takes the full viewport height */
+    box-sizing: border-box;     /* Ensures padding is included in height */
+}
+
+.section_2 .div_1 .blog_no {
+    color: wheat;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.section_2 .div_1 .title {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.section_2 .div_2 i {
+    height: 15px;
+    width: 15px;
+    color: #ff0d0d;
+}
+
+.section_2 .div_2 .location {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #aad9db;
+}
+
+.section_2 .div_3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.section_2 .div_3 img {
+    width: 50%;
+    height: 270px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section_2 .div_3 div {
+    width: 50%;
+    text-align: justify; /* Justify the text */
+    margin-left: 30px;
+    color: #dfdfdf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6; /* Improves readability */
+    font-size: 12px;
+}
+
+.section_2 .div_3 div .point {
+    color: aqua;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Ensures spacing between div_1 and div_2 */
+    background-color: rgb(8, 4, 41);
+    box-shadow: 4px 0 0 0 rgba(0, 0, 0, 0.2), 6px 0 0 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 20px;
+    color: wheat;
+}
+
+.footer h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.footer p {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+}
