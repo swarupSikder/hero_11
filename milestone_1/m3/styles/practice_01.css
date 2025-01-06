@@ -1,0 +1,80 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: aliceblue;
+    margin-top: 5px;
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .search_bar_layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main label .search_bar {
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px 2px 5px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 0 5px 0 5px;
+}
+
+main label .search_bar input {
+    border: none;
+}
+
+main label .search_bar i {
+    color: gray;
+}
+
+main label .search_bar i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+main figure {
+    width: 400px;
+}
+
+main figure img {
+    width: 400px;
+}
+
+main a {
+    color: wheat;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+main form label {
+    margin-top: 5px;
+}
+
+main form .submit {
+    width: fit-content;
+    padding: 2px 10px 2px 10px;
+}
