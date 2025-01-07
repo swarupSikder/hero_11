@@ -1,0 +1,24 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+main .parent {
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px ;
+    justify-content: space-between;
+    height: 350px;
+    align-items: center;
+}
+
+main .parent .child {
+    padding: 10px 20px 10px 20px;
+    background-color: aquamarine;
+    border: 1px solid rgb(106, 120, 120);
+    font-size: 20px;
+    margin: 10px 0;
+}
