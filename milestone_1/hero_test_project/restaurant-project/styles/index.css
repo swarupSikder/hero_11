@@ -83,7 +83,9 @@
 
 
 
-
+/*          */
+/* Card Box */
+/*          */
 #card-box {
     width: 1320px;
     margin: 100px auto;
@@ -234,5 +236,87 @@
 }
 
 .about-us .info-layout .social-layout i {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+/*        */
+/* Social */
+/*        */
+.social {
+    width: 1320px;
+    height: 419px;
+    margin: 100px auto;
+    border: 1px dashed gray;
+    display: flex;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    background: linear-gradient(180.00deg, rgb(255, 255, 255, 0.8) 2.884%,rgba(255, 255, 255, 0.8) 101.034%), url("../assets/social-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.social .info-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social .info-layout h2 {
+    width: 75%;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.social .info-layout p {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.social .info-layout .divider {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(212, 212, 212);
+}
+
+.social .info-layout h4 {
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.social .info-layout .social-layout {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.social .info-layout .social-layout i {
     font-size: 30px;
 }
