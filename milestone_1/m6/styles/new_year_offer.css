@@ -1,0 +1,344 @@
+/* Merriweather Font */
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+/* Inter Font */
+.inter-regular {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*        */
+/* Header */
+/*        */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 0px;
+}
+
+header .header-layout {
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../new_year_assets/images/Banner\ Image.png");
+}
+
+header .header-layout p {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+header .header-layout h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*        */
+/*  Main  */
+/*        */
+main {
+    width: 100%;
+}
+
+/* section (((1))) */
+main .section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
+}
+
+main .section-1 h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main .section-1 p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main .section-1 h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main .section-1 .image-layout{
+    width: 803px;
+    height: 500px;
+    border: 1px dashed gray;
+}
+
+main .section-1 .image-layout img{
+    width: 100%;
+}
+
+/* section (((2))) */
+main .section-2 {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../new_year_assets/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
+    margin: 65px 280px;
+    height: 600px;
+}
+
+main .section-2 h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+
+main .section-2 p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .section-2 .btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    background-color: rgba(132, 127, 126, 0.549);
+    border: none;
+    border-radius: 5px;
+}
+
+/* section (((3))) */
+main .section-3 {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 100px;
+    margin: 119px 280px;
+    height: 482px;
+}
+
+main .section-3 h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+main .section-3 h2 span {
+    color: red;
+}
+
+main .section-3 button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    background-color: rgba(255, 42, 0, 0.807);
+    border: none;
+    border-radius: 5px;
+}
+
+/* section (((4))) */
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 180px 100px;
+}
+
+.section-4 .col-1 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-items: center;
+    padding: 20px;
+}
+
+.section-4 .col-1 h3 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-4 .col-1 h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.section-4 .col-1 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-4 .col-2 {
+    width: 463px;
+    height: 445px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid red;
+    border-radius: 1000px;
+    padding: 20px;
+}
+
+.section-4 .col-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-4 .col-3 {
+    width: 33%;
+    margin-left: 100px;
+}
+
+.section-4 .col-3 h2 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-4 .col-3 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-4 .col-3 img {
+    width: 140px;
+    height: 140px;
+}
