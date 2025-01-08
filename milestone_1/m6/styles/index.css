@@ -1,0 +1,266 @@
+/* open sans font*/
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
+/* shared style starts */
+.bg-secondary {
+    background-color: rgba(255, 248, 243, 1);
+}
+.text-primary {
+    color: rgba(253, 110, 10, 1);
+}
+.dark-2 {
+    color: rgba(71, 71, 71, 1);
+}
+.btn-primary {
+    background-color: rgba(253, 110, 10, 1);
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(24, 24, 24, 1);
+}
+.section-description {
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
+}
+
+/* shared style ends */
+
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header */
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: open;
+    margin: 50px 200px;
+}
+
+nav .nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav .nav-title span {
+    color: rgba(253, 110, 10, 1);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Banner start */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content {
+    max-width: 580px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-profile-pic {
+    width: 580px;
+}
+
+
+
+
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
+/* About */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-item-layout {
+    display: flex;
+    justify-content: space-around;
+}
+.item-description {
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+/* what-i-do */
+.what-i-do {
+    
+}
+
+.what-i-do .what-i-do-item-layout {
+    display: flex;
+    gap: 24px;
+}
+
+.what-i-do .what-i-do-item-layout .skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.what-i-do .what-i-do-item-layout .skill img {
+
+}
+
+.what-i-do .what-i-do-item-layout .skill .skill-title {
+
+}
+
+.what-i-do .what-i-do-item-layout .skill .skill-description {
+    
+}
+
+
+
+
+
+
+
+/* resume */
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.resume .section-title {
+
+}
+
+.resume .resume-layout{
+    display: flex;
+    gap: 24px;
+}
+
+.resume .resume-layout .resume-col {
+    
+}
+
+.resume .resume-layout .resume-col .resume-column-title{
+
+}
+
+.resume .resume-layout .resume-col .experience {
+
+}
+
+.resume .resume-layout .resume-col .experience .experience-title{
+
+}
+
+.resume .resume-layout .resume-col .experience .experience-sub-title{
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume .resume-layout .resume-col .experience .experience-description{
+    color: rgba(117, 117, 117, 1);
+}
+
+.resume .resume-layout .resume-btn-layout{
+    margin: 30px;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+footer .footer-col {
+    width: 50%;
+}
+
+footer .footer-col .icon-layout {
+    
+}
+
+footer .footer-col .icon-layout img{
+    
+}
+
+footer .footer-col form {
+    
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
