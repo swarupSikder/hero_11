@@ -48,6 +48,10 @@
     padding: 0%;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 /*        */
 /* Header */
 /*        */
@@ -299,12 +303,12 @@ main .section-3 button {
 
 .section-4 .col-2 {
     width: 463px;
-    height: 445px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 15px solid red;
-    border-radius: 1000px;
+    border-radius: 50%;
     padding: 20px;
 }
 
@@ -341,4 +345,311 @@ main .section-3 button {
 .section-4 .col-3 img {
     width: 140px;
     height: 140px;
+}
+
+/* section (((5))) */
+.section-5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px 0px;
+}
+
+.section-5 h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-5 h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-5 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 25%;
+}
+
+.section-5 .main-div {
+    background-image: url("../new_year_assets/images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1320px;
+    height: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-5 .main-div .logo-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 100px;
+}
+
+.section-5 .main-div .logo-1 img{
+    width: 100%;
+    height: 80%;
+}
+
+.section-5 .main-div .logo-2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.section-5 .main-div .logo-2 img{
+    width: 40%;
+    height: 40%;
+    margin-top: 100px;
+}
+
+/* section (((6))) */
+.section-6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 150px 0px;
+}
+
+.section-6 h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-6 h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.section-6 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 50%;
+}
+
+.section-6 .main-div {
+    width: 71%;
+}
+
+.section-6 .main-div .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.section-6 .main-div .row .image-layout {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed gray;
+}
+
+.section-6 .main-div .row .image-layout img {
+    width: fit-content;
+}
+
+/* section (((7))) */
+.section-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 100px 275px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 150px;
+}
+
+.section-7 .image-layout {
+    border: 2px dashed gray;
+}
+
+.section-7 h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-7 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-7 .email-layout {
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+}
+
+.section-7 .email-layout input {
+    border: none;
+    background-color: tomato;
+    padding: 30px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: start;
+}
+
+.section-7 .email-layout button {
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+/*        */
+/* Footer */
+/*        */
+footer {
+    background: rgb(7, 2, 17);
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+footer .row-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .row-1 .left {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+footer .row-1 .right .right-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+
+footer .row-1 .right .right-item span {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+footer .row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .row-2 img {
+    border: 2px dashed gray;
+    border-radius: 3px;
+}
+
+footer .row-3 {
+    display: flex;
+}
+
+footer .row-3 .left {
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+footer .row-3 .right {
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-right: 10%;
 }
