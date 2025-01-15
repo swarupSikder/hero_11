@@ -1,0 +1,1224 @@
+/* global */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.primary-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    margin: 24px 0px;
+}
+
+.primary-btn:hover {
+    background-color: rgb(67, 144, 57);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.section-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 0px;
+}
+
+.details {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: rgb(245, 245, 245);
+}
+
+
+/*        */
+/* header */
+/*        */
+header {
+    width: 100%;
+}
+
+header nav {
+    padding: 24px 160px 24px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav span {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+header nav button {
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    margin: 0px 10px;
+}
+
+header nav button:hover {
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    background-color: rgb(67, 144, 57);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/*        */
+/*  main  */
+/*        */
+main {
+    width: 100%;
+}
+
+/* section-1 */
+main .section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 20px 160px;
+    padding: 4% 5%;
+}
+main .section-1 .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+main .section-1 .left h4 {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+main .section-1 .left h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+main .section-1 .left button {
+    width: fit-content;
+}
+main .section-1 .right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .section-1 .right img {
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section-2 */
+main .section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 24px;
+    margin: 20px 160px;
+    padding: 80px 0px;
+}
+
+main .section-2 .item-layout {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+main .section-2 .item-layout .item {
+    width: 362px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 3%;
+    margin: 0px 0px 0px 0px;
+}
+
+main .section-2 .item-layout .item img {
+    width: 62px;
+    height: 62px;
+}
+
+main .section-2 .item-layout .item h1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+
+main .section-2 .item-layout .item p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* section-3 */
+main .section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 24px;
+    margin: 20px 160px;
+    padding: 0px 0px;
+}
+
+main .section-3 .item-layout {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 32px 0;
+}
+
+main .section-3 .item-layout .item {
+    width: 33%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 12px;
+    box-sizing: border-box;
+    padding: 40px 40px 16px 40px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+main .section-3 .item-layout .item img {
+    width: 62px;
+    height: 62px;
+}
+
+main .section-3 .item-layout .item h1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .section-3 .item-layout .item button {
+    margin-top: auto;
+}
+
+main .section-3 .item-layout .item .btn-blue {
+    width: fit-content;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+}
+
+main .section-3 .item-layout .bg-blue {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+main .section-3 .item-layout .item .btn-green {
+    width: fit-content;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+}
+
+main .section-3 .item-layout .bg-green {
+    background: rgb(198, 228, 214);
+}
+
+main .section-3 .item-layout .item .btn-yellow {
+    width: fit-content;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+}
+
+main .section-3 .item-layout .bg-yellow {
+    background: rgb(247, 235, 207);
+}
+
+main .section-3 .quote-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    margin: 32px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.1) 100%), url("../assets/quote-bg.png"), white;
+    background-position: 25px 25px;
+    background-repeat: no-repeat;
+    margin: 0px 0px;
+    padding: 48px 24px 48px 24px;
+}
+
+main .section-3 .quote-layout h2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+main .section-3 .quote-layout h6 {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+/* section-4 */
+main .section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 24px;
+    margin: 80px 160px 0px 160px;
+    padding: 0px 0px;
+}
+
+main .section-4 .q-layout {
+    width: 96%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+
+main .section-4 .q-layout table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+main .section-4 .q-layout table thead {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    padding: 0px;
+}
+
+main .section-4 .q-layout table thead .left {
+    margin-right: 70%;
+}
+
+main .section-4 .q-layout table thead .right {
+    text-align: right;
+}
+
+main .section-4 .q-layout table .q-part {
+    width: 80%;
+}
+
+main .section-4 .q-layout table .option-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .section-4 .q-layout table tbody span {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 14px 10px 14px;
+    margin: 12px 0px;
+}
+
+main .section-4 .q-layout table tbody span i {
+    margin: 2px 5px;
+}
+
+
+main .section-4 .q-layout table th {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+main .section-4 .q-layout table td {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section-5 */
+main .section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 24px;
+    margin: 80px 160px 0px 160px;
+    padding: 0px 0px;
+}
+
+main .section-5 .item-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 38px;
+    margin: 38px 0;
+}
+
+main .section-5 .item-layout .item {
+    display: flex;
+    padding: 48px;
+    gap: 28px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+
+main .section-5 .item-layout .item-reverse {
+    flex-direction: row-reverse;
+}
+
+main .section-5 .item-layout .item .left img {
+    width: 500px;
+    height: 350px;
+    border-radius: 24px;
+}
+
+main .section-5 .item-layout .item .right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 12px;
+}
+
+main .section-5 .item-layout .item .right h1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .section-5 .item-layout .item .right img {
+    width: 160px;
+}
+
+main .section-5 .item-layout .item .right button {
+    width: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section-6 */
+main .section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    border-radius: 24px;
+    margin: 80px 11% 0px 11%;
+    padding: 0px 0px;
+}
+
+main .section-6 p {
+    text-align: center;
+}
+
+main .section-6 .item-layout {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 32px 0;
+}
+
+main .section-6 .item-layout .item {
+    width: 24%;
+    padding: 2%;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main .section-6 .item-layout .bg-selected {
+    background: rgb(198, 228, 214);
+}
+
+main .section-6 .item-layout .item:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 144, 57);
+}
+
+main .section-6 input {
+    width: 80%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section-7 */
+main .section-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+    margin: 80px 160px 0px 160px;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+main .section-7 p {
+    padding: 0 0;
+    text-align: center;
+    margin: 0 15%;
+}
+
+main .section-7 .input-layout {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+}
+
+main .section-7 .input-layout input {
+    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 60px 18px 40px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .section-7 .input-layout span {
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .section-7 .input-layout span:hover {
+    color: white;
+    background-color: rgb(67, 144, 57);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+
+/*        */
+/* footer */
+/*        */
+footer {
+    padding: 50px 160px 50px 160px;
+    background: rgb(255, 255, 255);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+footer h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+footer hr {
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+footer .logo-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+/* for mobile devices */
+@media screen and (max-width: 576px) {
+    .primary-btn {
+        color: rgb(255, 255, 255);
+        font-family: Fira Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0%;
+        text-align: left;
+        border-radius: 3px;
+        border: none;
+        background: rgb(0, 106, 80);
+        padding: 10px 10px;
+        margin: 8px 0px;
+    }
+
+    .section-title {
+        color: rgb(14, 14, 14);
+        font-family: Fira Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 12px 0 0 0;
+    }
+    
+    .details {
+        color: rgba(14, 14, 14, 0.7);
+        font-family: Fira Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    /*        */
+    /* header */
+    /*        */
+    header {
+        width: 100%;
+    }
+
+    header nav {
+        padding: 5px 20px 5px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header nav span {
+        font-size: 20px;
+    }
+
+    header nav button {
+        font-size: 12px;
+        border-radius: 3px;
+        padding: 2px 10px;
+        margin: 8px 0px;
+    }
+
+
+
+    /*        */
+    /*  main  */
+    /*        */
+    
+    /* section-1 */
+    main .section-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 12px;
+        background: rgb(198, 228, 214);
+        margin: 5px 20px;
+        padding: 4% 5%;
+    }
+    main .section-1 .left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    main .section-1 .left h4 {
+        color: rgba(14, 14, 14, 0.5);
+        font-family: Fira Sans;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    main .section-1 .left h1 {
+        color: rgb(14, 14, 14);
+        font-family: Fira Sans;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    main .section-1 .left button {
+        width: fit-content;
+        font-size: 10px;
+    }
+    main .section-1 .right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main .section-1 .right img {
+        width: 80%;
+    }
+
+    /* section-2 */
+    main .section-2 {
+        flex-direction: column;
+        margin: 5px 20px;
+        padding: 0 0;
+    }
+
+    main .section-2 .item-layout {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    main .section-2 .item-layout .item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 10px;
+        background: rgb(255, 255, 255);
+        padding: 3%;
+        margin: 0px 0px 0px 0px;
+    }
+
+    main .section-2 .item-layout .item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    main .section-2 .item-layout .item h1 {
+        color: rgba(14, 14, 14, 0.8);
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 5px 0 5px 0;
+    }
+
+    main .section-2 .item-layout .item p {
+        color: rgba(14, 14, 14, 0.7);
+        font-family: Fira Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    /* section-3 */
+    main .section-3 {
+        margin: 5px 20px;
+    }
+
+    main .section-3 .item-layout {
+        flex-direction: column;
+        gap: 15px;
+        margin: 25px 0;
+    }
+
+    main .section-3 .item-layout .item {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 5px;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+
+    main .section-3 .item-layout .item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    main .section-3 .item-layout .item h1 {
+        color: rgba(14, 14, 14, 0.8);
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 5px 0 5px 0;
+    }
+
+    main .section-3 .item-layout .item button {
+        margin-top: auto;
+    }
+
+    main .section-3 .item-layout .item .btn-blue {
+        width: fit-content;
+        border-radius: 3px;
+        background: rgb(84, 144, 245);
+    }
+
+    main .section-3 .item-layout .item .btn-green {
+        width: fit-content;
+        border-radius: 3px;
+        background: rgb(9, 161, 92);
+    }
+
+    main .section-3 .item-layout .item .btn-yellow {
+        width: fit-content;
+        border-radius: 3px;
+        background: rgb(255, 194, 57);
+    }
+
+    main .section-3 .quote-layout h2 {
+        color: rgba(14, 14, 14, 0.8);
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 24px;
+    }
+
+    main .section-3 .quote-layout h6 {
+        color: rgba(14, 14, 14, 0.6);
+        font-family: Fira Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 6px;
+    }
+
+    /* section-4 */
+    main .section-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        border-radius: 12px;
+        margin: 5px 20px;
+        padding: 0px 0px;
+    }
+
+    main .section-4 .q-layout {
+        width: 99%;
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        padding: 3% 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .section-4 .q-layout table {
+        width: 95%;
+        border-collapse: collapse;
+    }
+
+    main .section-4 .q-layout table thead {
+        padding: 2px 2px;
+    }
+
+    main .section-4 .q-layout table thead .left {
+        margin-right: 55%;
+        font-size: 12px;
+    }
+
+    main .section-4 .q-layout table thead .right {
+        text-align: right;
+        font-size: 12px;
+    }
+
+    main .section-4 .q-layout table .q-part {
+        width: 65%;
+        line-height: 15px;
+    }
+
+    main .section-4 .q-layout table .option-part {
+        height: 70px;
+    }
+
+    main .section-4 .q-layout table tbody tr td span {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        border: 1px solid rgb(14, 14, 14);
+        border-radius: 4px;
+        background: rgb(198, 228, 214);
+        padding: 5px 1px;
+        margin: 11px 0px;
+    }
+
+    main .section-4 .q-layout table tbody span i {
+        margin: 2px 0px;
+    }
+
+
+    main .section-4 .q-layout table th {
+        color: rgb(14, 14, 14);
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 12px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 12px;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+    }
+
+    main .section-4 .q-layout table td {
+        color: rgb(14, 14, 14);
+        font-family: Fira Sans;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 12px 12px;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+    }
+
+    /* section-5 */
+    main .section-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        border-radius: 24px;
+        margin: 5px 20px 0px 20px;
+        padding: 0px 0px;
+    }
+
+    main .section-5 .item-layout {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 20px 0;
+    }
+
+    main .section-5 .item-layout .item {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 28px;
+        border-radius: 12px;
+        background: rgb(255, 255, 255);
+    }
+
+    main .section-5 .item-layout .item-reverse {
+        flex-direction: column;
+    }
+
+    main .section-5 .item-layout .item .left img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    main .section-5 .item-layout .item .right h1 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    main .section-5 .item-layout .item .right img {
+        width: 100px;
+    }
+
+    /* section-6 */
+    main .section-6 {
+        gap: 5px;
+        margin: 10px 11% 0px 11%;
+        padding: 0px 0px;
+    }
+
+    main .section-6 .item-layout {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        margin: 12px 0;
+    }
+
+    main .section-6 .item-layout .item {
+        font-size: 12px;
+        line-height: 15px;
+        border-radius: 5px;
+        padding: 5px 1px;
+    }
+
+    main .section-6 input {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    /* section-7 */
+    main .section-7 {
+        margin: 50px 20px;
+        padding: 10px 5px;
+        border-radius: 12px;
+    }
+
+    main .section-7 p {
+        margin: 0 5%;
+    }
+
+    main .section-7 .input-layout {
+        width: 85%;
+        margin: 12px;
+    }
+
+    main .section-7 .input-layout input {
+        border-radius: 4px 0px 0px 4px;
+        padding: 9px 30px 8px 20px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    main .section-7 .input-layout span {
+        border-radius: 0px 4px 4px 0px;
+        padding: 9px 17px 8px 17px;
+        color: rgb(255, 255, 255);
+        font-family: Fira Sans;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    /*        */
+    /* footer */
+    /*        */
+    footer {
+        padding: 40px 20px;
+    }
+
+    footer h1 {
+        font-size: 20px;
+        line-height: 12px;
+    }
+
+    footer .logo-layout {
+        gap: 20px;
+    }
+}
