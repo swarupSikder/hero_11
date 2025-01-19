@@ -403,7 +403,7 @@ footer .item-layout .item i {
 /* Media Query */
 /*             */
 /* for mobile devices */
-@media screen and (max-width: 576px) {
+@media (max-width: 768px) {
     /*        */
     /* Header */
     /*        */
@@ -564,6 +564,153 @@ footer .item-layout .item i {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-4 .right h1 {
+        font-size: 1.5rem;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .section-4 .right p {
+        width: 100%;
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    /*        */
+    /* Footer */
+    /*        */
+    footer {
+        padding: 8% 0%;
+    }
+
+    footer > h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    footer > p {
+        font-size: 0.8rem;
+        line-height: 12px;
+    }
+
+    footer .item-layout {
+        gap: 10px;
+    }
+
+    footer .item-layout .item i {
+        font-size: 1.5rem;
+    }
+}
+
+
+/*             */
+/* Media Query */
+/*             */
+/* for medium devices */
+@media (min-width: 769px) and (max-width: 992px) {
+    /*        */
+    /* Header */
+    /*        */
+    nav .menu {
+        display: block;
+    }
+    nav .page-title {
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1rem;
+    }
+    nav .item-layout {
+        margin-left: 0px;
+    }
+    nav .item-layout .item {
+        display: none;
+        margin-left: 0px;
+    }
+    nav .item-layout .item-fixed {
+        margin-left: 0px;
+    }
+
+    nav .item-layout .item i , .item-fixed i{
+        margin-left: 0px;
+    }
+
+    /*        */
+    /*  main  */
+    /*        */
+    main {
+        padding: 0% 7%;
+    }
+
+    /*  section (1)  */
+
+    .section-1 .left {
+        width: 65%;
+    }
+
+    .section-1 .left h1 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .section-1 .left p {
+        width: 95%;
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+
+    .section-1 .left button {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 8;
+        padding: 10px 24px 10px 24px;
+        border-radius: 41px;
+        border: none;
+        background: var(--primary-color);
+        color: white;
+    }
+
+    .section-1 .right {
+        width: calc(100% - 65% - 0px);
+        background-image: url("../assets/images/Circle\ design.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        padding: 5% 1% 5% 5%;
+    }
+
+    .section-1 .right img {
+        width: 240px;
+    }
+
+
+    /*  section (3)  */
+    .section-3 .item-layout {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+
+    /*  section (4)  */
+    .section-4 {
+        display: flex;
+    }
+
+    .section-4 .right {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         justify-content: center;
         align-items: center;
     }
