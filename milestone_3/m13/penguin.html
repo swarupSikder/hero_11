@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Google Font Link (start>>)-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Google Font Link (end<<)-->
 
     <link rel="stylesheet" href="styles/penguin.css">
 </head>
@@ -16,11 +18,28 @@
     <!--      -->
     <!--header-->
     <!--      -->
-    <header class="bg-[#FFFBF0] pl-4">
+    <header class="bg-[#FFFBF0] lg:px-25 lg:py-10 md:px-20 md:py-5 px-10 py-2.5">
 
         <!--nav start-->
-        <nav>
+        <nav class="flex items-center justify-between mb-10">
+            <!--left-->
+            <div>
+                <img class="w-52 md:w-72 lg:w-96" src="assets/icons/logo.png" alt="">
+            </div>
 
+            <!--right-->
+            <div class="font-medium text-base hidden lg:block">
+                <span class="ms-12">Home</span>
+                <span class="ms-12">Products</span>
+                <span class="ms-12">About Us</span>
+                <span class="ms-12">Contact Us</span>
+            </div>
+
+            <!--menu-->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 md:size-10 lg:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              
         </nav>
         <!--nav end-->
 
@@ -30,18 +49,26 @@
 
 
         <!--banner start-->
-        <div class="md:flex md:items-center md:justify-around">
+        <div class="md:flex md:items-center md:justify-between">
             <div>
-                <h1 class="text-7xl uppercase bebas-neue-font">
+                <h1 class="mb-4 text-5xl md:text-6xl lg:text-7xl uppercase bebas-neue-font">
                     <span class="text-orange-400">Be the Penguins</span>
                     <br>
                     <span class="text-stone-800">of Winter</span>
                 </h1>
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, nobis. Quibusdam ut ratione ea quasi?</p>
+                <p class="mb-4 text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, nobis. Quibusdam ut ratione ea quasi?</p>
 
-                <button class="bg-green-300 px-8 py-4 rounded-xl font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white inline">
+                <button class="bg-green-300 
+                                px-6 py-2 
+                                md:px-8 md:py-4 
+                                rounded-xl 
+                                text-sm
+                                md:text-xl
+                                font-medium
+                                text-white 
+                                bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 md:size-6 text-white inline">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                       </svg>
                       
@@ -71,7 +98,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-3">
 
                 <!--item-->
-                <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl bg-orange-400">
                     <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="assets/images/jacket-1.png" alt="">
                     <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, inventore?</p>
