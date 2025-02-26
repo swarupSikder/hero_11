@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #86CBF9;
+    --secondary-color: #2facff;
+}
+
+.feed-item {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    box-shadow: 2px 2px 2px 2px;
+    margin-bottom: 3rem;
+}
+
+.user-layout {
+    display: flex;
+}
+
+.profile-photo {
+    width: 100px;
+    padding: 2px;
+    border-radius: 100%;
+    border: 2px solid var(--secondary-color);
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.user-name {
+    font-size: 2rem;
+    color: slategray;
+}
+
+.user-tag {
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.post-time {
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.post-text {
+    margin-top: 24px;
+}

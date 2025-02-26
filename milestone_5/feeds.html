@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swarup</title>
+
+    <!--Vanilla CSS Link-->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!--Google font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passero+One&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--FlatIcon link-->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!--Daisy UI + Tailwind CSS (start)-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-color': '#86CBF9',
+                        'primary-color-50': '#FFDC2680',
+                        'secondary-color': '#2facff',
+                        'base-color': '#E0F2F9',
+                    },
+                    fontFamily: {
+                        'tomorrow': ['Tomorrow', 'serif'],
+                        'inter': ['Inter', 'serif'],
+                        'passero-one': ['Passero One', 'serif'],
+                        'concert': ['Concert One', 'serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <!--Tailwind CSS (end)-->
+
+    <!--flowbite link-->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="font-inter">
+
+    <!---------->
+    <!--Header-->
+    <!---------->
+    <header class="px-2 md:px-0 bg-base-color shadow-md sticky top-0">
+
+        <div class="navbar container mx-auto py-2 md:py-6">
+
+            <!-------->
+            <!--left-->
+            <!-------->
+            <div class="navbar-start space-x-1">
+                <figure class="h-2 w-2 md:h-3 md:w-3 bg-primary-color rounded-full mt-auto"></figure>
+
+                <h1 class="text-xl md:text-4xl font-concert text-slate-600 title-text-hover">Swarup</h1>
+            </div>
+
+
+
+
+
+            <!------->
+            <!--mid-->
+            <!------->
+            <div class="navbar-center hidden lg:flex space-x-12">
+                <h2 class="text-lg font-semibold text-hover">Projects</h2>
+                <h2 class="text-lg font-semibold text-hover">Docs</h2>
+                <h2 class="text-lg font-semibold text-hover">Design</h2>
+            </div>
+
+
+
+
+
+            <!--------->
+            <!--right-->
+            <!--------->
+            <div class="navbar-end flex items-center">
+
+                <!--for md, lg-->
+                <div class="hidden lg:flex items-center space-x-4">
+                    <i
+                        class="fi fi-rr-search pt-2 text-2xl hover:text-primary-color hover:cursor-pointer hover:scale-125 transition duration-300 ease-in-out"></i>
+
+                    <button class="btn px-8 text-lg bg-primary-color">Let's Talk</button>
+                </div>
+
+                <!--for sm-->
+                <div class="lg:hidden">
+                    <i class="fi fi-rr-menu-burger text-2xl"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <!---------->
+    <!-- Main -->
+    <!---------->
+    <main>
+
+        <!------------------>
+        <!--Add a new post-->
+        <!------------------>
+        <section
+            class="container mx-auto my-4 md:my-0 lg:my-24 px-4 md:px-0 flex flex-col md:flex-row">
+
+            <!--user info-->
+            <div class="user-layout mx-auto">
+                <img class="profile-photo w-[120px] h-[120px]" src="./assets/final_300x300.jpg" alt="">
+
+                <div class="add-post-layout flex space-x-4">
+                    <textarea id="input-post-text" class="border-2 border-slate-300 p-4 ml-4 rounded-lg" name="add-post" cols="50" rows="6" placeholder="write something..."></textarea>
+                    <button id="post-button" class="btn bg-primary-color">POST</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <!---------------->
+        <!--Feeds Layout-->
+        <!---------------->
+        <section
+            class="container mx-auto my-4 md:my-0 lg:my-24 px-4 md:px-0 flex flex-col md:flex-row">
+
+            <!--feeds layout-->
+            <div id="feeds-layout">
+
+                <!--feed (1)-->
+                <div class="feed-item">
+
+                    <!--user layout-->
+                    <div class="user-layout">
+                        <img class="profile-photo" src="./assets/final_300x300.jpg" alt="">
+
+                        <div class="user-info">
+                            <h1 class="user-name font-concert">Swarup Sikder</h1>
+                            <p class="user-tag">Full Stack Web Developer</p>
+                            <p class="post-time">12 Feb 2025</p>
+                        </div>
+                    </div>
+
+                    <!--post-layout-->
+                    <div class="post-layout">
+                        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ipsam. Adipisci delectus doloremque quam repellendus dolorem corrupti eaque temporibus et at culpa cum vero optio id voluptate quibusdam perferendis, iure expedita deserunt quisquam omnis? Dolore cupiditate corrupti, ipsam voluptate voluptatum, ipsa harum architecto fuga nostrum sint minima tenetur ducimus soluta temporibus facere officiis asperiores aperiam ratione. Dolores voluptatem cum hic ducimus quaerat sunt vitae possimus, consectetur eum! Reprehenderit, quibusdam! Inventore quidem distinctio harum culpa, qui porro fuga! Sed consequatur veritatis nostrum soluta amet officiis debitis dolores harum totam quasi! Maxime ab harum optio explicabo dignissimos molestiae quam sit veniam? Nesciunt.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <!---------->
+    <!--footer-->
+    <!---------->
+    <footer>
+
+    </footer>
+
+    <script src="./scripts/add-post.js"></script>
+
+    <!--flowbite link-->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+</body>
+
+</html>
