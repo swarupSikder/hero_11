@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>36</title>
+
+    <!--Tailwind CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+</head>
+
+<body>
+    <h1 class="m-1 text-3xl font-bold">Module 36 (Local Storage)</h1>
+
+    <fieldset>
+        <input id="item-name" class="border-2 rounded-md text-xl p-2 ml-1" type="text" name="" placeholder="Enter Item Name"> <br> <br>
+        <input id="quantity" class="border-2 rounded-md text-xl p-2 ml-1" type="number" name="" placeholder="Enter Quantity"> <br> <br>
+
+        <button onclick="saveToLocalStorage()" class="bg-slate-500 ml-1 p-2 rounded-md text-white">Add to Cart</button>
+    </fieldset>
+
+
+
+    <section id="cart-container">
+
+    </section>
+
+
+
+
+
+
+
+    <script src="./m36.js"></script>
+
+</body>
+
+</html>
