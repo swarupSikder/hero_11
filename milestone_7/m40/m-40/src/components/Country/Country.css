@@ -1,0 +1,26 @@
+.country-box {
+    border: 1px solid tomato;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.country-box-bg {
+    background-color: gray;
+}
+
+.flag {
+    width: 100px;
+}
+
+.visit-btn {
+    background-color: skyblue;
+    width: fit-content;
+}
+
+.not-visit-btn {
+    background-color: rgb(55, 72, 79);
+    width: fit-content;
+}

@@ -1,0 +1,12 @@
+.bottle-item {
+    border: 2px solid salmon;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottle-image {
+    width: 200px;
+    border-radius: 15px;
+}

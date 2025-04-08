@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "cover": "https://randomuser.me/api/portraits/men/32.jpg",
+        "title": "Mastering React: A Mid-Level Developer's Guide",
+        "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+        "author": "John Doe",
+        "posted_date": "2025-04-05",
+        "reading_time": "8 min read",
+        "hashtags": [
+            "mid_level",
+            "react"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://randomuser.me/api/portraits/women/45.jpg",
+        "title": "React Performance Tips Every Dev Should Know",
+        "author_img": "https://randomuser.me/api/portraits/women/45.jpg",
+        "author": "Jane Smith",
+        "posted_date": "2025-03-28",
+        "reading_time": "6 min read",
+        "hashtags": [
+            "mid_level",
+            "react",
+            "optimization"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://randomuser.me/api/portraits/men/56.jpg",
+        "title": "Understanding React Hooks in Depth",
+        "author_img": "https://randomuser.me/api/portraits/men/56.jpg",
+        "author": "Adam Lee",
+        "posted_date": "2025-04-01",
+        "reading_time": "10 min read",
+        "hashtags": [
+            "mid_level",
+            "react",
+            "hooks"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://randomuser.me/api/portraits/women/63.jpg",
+        "title": "State Management Strategies in React",
+        "author_img": "https://randomuser.me/api/portraits/women/63.jpg",
+        "author": "Sara Kim",
+        "posted_date": "2025-03-22",
+        "reading_time": "7 min read",
+        "hashtags": [
+            "mid_level",
+            "react",
+            "state"
+        ]
+    },
+    {
+        "id": 5,
+        "cover": "https://randomuser.me/api/portraits/men/33.jpg",
+        "title": "Testing React Components Like a Pro",
+        "author_img": "https://randomuser.me/api/portraits/men/33.jpg",
+        "author": "Michael Chen",
+        "posted_date": "2025-03-15",
+        "reading_time": "9 min read",
+        "hashtags": [
+            "mid_level",
+            "react",
+            "testing"
+        ]
+    },
+    {
+        "id": 6,
+        "cover": "https://randomuser.me/api/portraits/women/22.jpg",
+        "title": "useContext vs Redux: Which One Should You Use?",
+        "author_img": "https://randomuser.me/api/portraits/women/22.jpg",
+        "author": "Lisa White",
+        "posted_date": "2025-04-02",
+        "reading_time": "5 min read",
+        "hashtags": [
+            "mid_level",
+            "react",
+            "redux"
+        ]
+    },
+    {
+        "id": 7,
+        "cover": "https://randomuser.me/api/portraits/men/77.jpg",
+        "title": "Navigating with React Router v6",
+        "author_img": "https://randomuser.me/api/portraits/men/77.jpg",
+        "author": "Tom Hughes",
+        "posted_date": "2025-03-30",
+        "reading_time": "6 min read",
+        "hashtags": [
+            "mid_level",
+            "react",
+            "routing"
+        ]
+    }
+]
